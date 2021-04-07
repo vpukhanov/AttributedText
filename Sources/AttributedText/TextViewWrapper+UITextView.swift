@@ -46,6 +46,7 @@
             #endif
             uiView.isScrollEnabled = false
             uiView.textContainer.lineFragmentPadding = 0
+            uiView.dataDetectorTypes = .all
             uiView.delegate = context.coordinator
 
             return uiView

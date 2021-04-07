@@ -51,6 +51,8 @@
             nsView.textContainerInset = .zero
             nsView.isEditable = false
             nsView.isRichText = false
+            nsView.isAutomaticLinkDetectionEnabled = true
+            nsView.isAutomaticDataDetectionEnabled = true
             nsView.textContainer?.lineFragmentPadding = 0
             // we are setting the container's width manually
             nsView.textContainer?.widthTracksTextView = false
